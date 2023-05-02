@@ -97,6 +97,8 @@
   color: #234cad;
 
   /* buttonbackground */
+}
+.background {
   box-sizing: border-box;
   position: absolute;
   left: 0%;
@@ -113,9 +115,8 @@
   top: 0%;
   bottom: 0%;
 }
-.textbutton2 {
-  /* Button Text */
 
+.textbutton2 {
   position: absolute;
   height: 29px;
   left: 26.67%;
@@ -128,18 +129,8 @@
   font-size: 18px;
   line-height: 29px;
   /* identical to box height, or 161% */
-
   text-align: center;
-
-  color: #234cad;
-
-  /* Button Background */
-
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-  background: #f2f6ff;
   border-radius: 25px;
+  /* padding: 200px; */
+  color: #234cad;
 }
