@@ -1,0 +1,145 @@
+/* elemen header */
+.Header {
+  position: absolute;
+  width: 1240px;
+  height: 50px;
+  left: 100px;
+  top: 50px;
+}
+.menubutton {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+}
+.nav-link {
+  position: absolute;
+  left: 33.63%;
+  right: 35.89%;
+  top: 22%;
+  bottom: 20%;
+}
+.home {
+  position: absolute;
+  height: 29px;
+  left: 0%;
+  right: 87.04%;
+  top: calc(50% - 29px / 2);
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  color: #234cad;
+}
+.product {
+  position: absolute;
+  height: 29px;
+  left: 26.19%;
+  right: 56.61%;
+  top: calc(50% - 29px / 2);
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  color: #234cad;
+}
+.about {
+  position: absolute;
+  height: 29px;
+  left: 56.61%;
+  right: 29.89%;
+  top: calc(50% - 29px / 2);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  color: #234cad;
+}
+.contak {
+  position: absolute;
+  height: 29px;
+  left: 83.07%;
+  right: 0%;
+  top: calc(50% - 29px / 2);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  color: #234cad;
+}
+.loginbutton {
+  position: absolute;
+  left: 76.21%;
+  right: 12.9%;
+  top: 0%;
+  bottom: 0%;
+}
+.textbutton {
+  /* buttontext */
+  position: absolute;
+  height: 29px;
+  left: 32.59%;
+  right: 32.59%;
+  top: calc(50% - 29px / 2 + 0.5px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #234cad;
+
+  /* buttonbackground */
+  box-sizing: border-box;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border: 2px solid #234cad;
+  border-radius: 25px;
+}
+.signupButton {
+  position: absolute;
+  left: 89.11%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+.textbutton2 {
+  /* Button Text */
+
+  position: absolute;
+  height: 29px;
+  left: 26.67%;
+  right: 25.93%;
+  top: calc(50% - 29px / 2 + 0.5px);
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  /* identical to box height, or 161% */
+
+  text-align: center;
+
+  color: #234cad;
+
+  /* Button Background */
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #f2f6ff;
+  border-radius: 25px;
+}
