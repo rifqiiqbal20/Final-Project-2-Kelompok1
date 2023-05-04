@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -14,26 +14,26 @@ body {
 
 /* navbar */
 .sidenav {
-  height: 100%; 
-  width: 0; 
+  height: 100%;
+  width: 0;
   position: fixed;
-  z-index: 1; 
+  z-index: 1;
   top: 0;
   left: 0;
   background-color: #f1f1f1;
   overflow-x: hidden;
   padding-top: 80px;
-  transition: 0.5s; 
+  transition: 0.5s;
 }
 
 .sidenav a {
-  margin:15px 15px 15px 32px;
+  margin: 15px 15px 15px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #234CAD;
+  color: #234cad;
   display: block;
   transition: 0.3s;
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-weight: 700;
 }
 
@@ -55,9 +55,9 @@ body {
   top: 20px;
 }
 
-.navbar .navbar-toggler{
+.navbar .navbar-toggler {
   position: absolute;
-  color: #F2F6FF;
+  color: #f2f6ff;
   top: 70px;
   left: 100px;
   right: 1290px;
@@ -66,11 +66,11 @@ body {
 .navbar .nav-item #home {
   width: 49px;
   height: 29px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 29px;
-  color: #234CAD;
+  color: #234cad;
   position: absolute;
   left: 517px;
   top: 61px;
@@ -81,10 +81,10 @@ body {
 .navbar .nav-item #product {
   width: 65px;
   height: 29px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 18px;
-  color: #234CAD;
+  color: #234cad;
   position: absolute;
   left: 616px;
   top: 61px;
@@ -95,10 +95,10 @@ body {
 .navbar .nav-item #about {
   width: 51px;
   height: 29px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 18px;
-  color: #234CAD;
+  color: #234cad;
   position: absolute;
   left: 731px;
   top: 61px;
@@ -109,10 +109,10 @@ body {
 .navbar .nav-item #contact {
   width: 64px;
   height: 29px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 18px;
-  color: #234CAD;
+  color: #234cad;
   position: absolute;
   left: 831px;
   top: 61px;
@@ -121,14 +121,14 @@ body {
 }
 
 #main {
-  transition: margin-left .5s;
+  transition: margin-left 0.5s;
 }
 
 .navbar #main #login {
   width: 135px;
   height: 50px;
   border-radius: 25px;
-  border-color: #234CAD;
+  border-color: #234cad;
   position: absolute;
   left: 1045px;
   top: 50px;
@@ -139,11 +139,11 @@ body {
 .navbar #main #login .btn-text-login {
   width: 47px;
   height: 29px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 29px;
-  color: #234CAD;
+  color: #234cad;
   position: absolute;
   top: 11px;
   right: 44px;
@@ -152,7 +152,7 @@ body {
   text-align: center;
 }
 .navbar #main #login:hover {
-  background-color: #F2F6FF;
+  background-color: #f2f6ff;
 }
 
 .navbar #main #sign-up {
@@ -160,7 +160,7 @@ body {
   height: 50px;
   border-radius: 25px;
   border-color: white;
-  background-color: #F2F6FF;
+  background-color: #f2f6ff;
   position: absolute;
   left: 1205px;
   top: 50px;
@@ -170,11 +170,11 @@ body {
 .navbar #main #sign-up .btn-text-sign {
   width: 64px;
   height: 29px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 16px;
   font-style: normal;
-  color: #234CAD;
+  color: #234cad;
   line-height: 29px;
   position: absolute;
   top: 11px;
@@ -186,15 +186,19 @@ body {
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 
 /* Jumbotron */
 #web-section {
   height: 575px;
   width: 1240px;
-  background: #F2F6FF;
+  background: #f2f6ff;
   border-radius: 60px;
   position: absolute;
   left: 100px;
@@ -218,12 +222,12 @@ body {
 }
 
 .body-text {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
-  color: #234CAD;
+  color: #234cad;
   position: absolute;
   width: 375px;
   height: 168px;
@@ -234,12 +238,12 @@ body {
 }
 
 .paragraph {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #234CAD;
+  color: #234cad;
   position: absolute;
   width: 304px;
   height: 52px;
@@ -250,14 +254,14 @@ body {
 }
 
 #card-left .btn {
-  border-color:#234CAD;
+  border-color: #234cad;
   border-radius: 32.5px;
   width: 200px;
   height: 65px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 22px;
-  color:#234CAD;  
+  color: #234cad;
   position: absolute;
   left: 100px;
   top: 403px;
@@ -308,11 +312,11 @@ body {
 .paragraph-2 h4 {
   width: 160px;
   height: 21px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
-  color: #234CAD;
+  color: #234cad;
   position: absolute;
   left: 93px;
   top: 32px;
@@ -322,11 +326,11 @@ body {
 
 .paragraph-2 p {
   width: 90px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 21px;
-  color: #234CAD;
+  color: #234cad;
   position: absolute;
   left: 93px;
   top: 56px;
@@ -339,20 +343,20 @@ body {
   width: 276px;
   border-radius: 25px;
   margin-bottom: 25px;
-  border-color:white ;
+  border-color: white;
   position: absolute;
   left: 575px;
   top: 261px;
-  right: 389px ;
+  right: 389px;
   bottom: 154px;
 }
 
-#card-center-3 .fa-stack{
+#card-center-3 .fa-stack {
   position: absolute;
   margin: 20px;
   width: 60px;
   height: 60px;
-  background-color: #F2F6FF;
+  background-color: #f2f6ff;
   border-radius: 100%;
 }
 
@@ -371,21 +375,21 @@ body {
 .paragraph-3 h4 {
   width: 110px;
   height: 21px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
-  color: #234CAD;
+  color: #234cad;
 }
 
 .paragraph-3 p {
   width: 118px;
   height: 21px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 21px;
-  color: #234CAD;
+  color: #234cad;
   display: inline;
 }
 
@@ -393,9 +397,9 @@ body {
   position: absolute;
   width: 40px;
   height: 40px;
-  background-color: #F2F6FF;
+  background-color: #f2f6ff;
   color: white;
-  padding:9px;
+  padding: 9px;
   border-radius: 100%;
   bottom: 20px;
   margin: 20px -10px 20px 20px;
@@ -404,20 +408,20 @@ body {
 
 .person .text-block p {
   height: 14px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 10px;
   line-height: 14px;
-  color: #234CAD;
+  color: #234cad;
 }
 
 .text-block-1 {
   position: absolute;
   width: 40px;
   height: 40px;
-  background-color: #F2F6FF;
+  background-color: #f2f6ff;
   color: white;
-  padding:9px;
+  padding: 9px;
   border-radius: 100%;
   bottom: 20px;
   margin-left: 50px;
@@ -426,20 +430,20 @@ body {
 
 .person-1 .text-block-1 p {
   height: 14px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 10px;
   line-height: 14px;
-  color: #234CAD;
+  color: #234cad;
 }
 
 .text-block-2 {
   position: absolute;
   width: 40px;
   height: 40px;
-  background-color: #F2F6FF;
+  background-color: #f2f6ff;
   color: white;
-  padding:9px;
+  padding: 9px;
   border-radius: 100%;
   bottom: 20px;
   margin-left: 80px;
@@ -448,20 +452,20 @@ body {
 
 .person-2 .text-block-2 p {
   height: 14px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 10px;
   line-height: 14px;
-  color: #234CAD;
+  color: #234cad;
 }
 
 .text-block-3 {
   position: absolute;
   width: 40px;
   height: 40px;
-  background-color: #F2F6FF;
+  background-color: #f2f6ff;
   color: white;
-  padding:9px;
+  padding: 9px;
   border-radius: 100%;
   bottom: 20px;
   margin-left: 110px;
@@ -470,11 +474,11 @@ body {
 
 .person-3 .text-block-3 p {
   height: 14px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 10px;
   line-height: 14px;
-  color: #234CAD;
+  color: #234cad;
 }
 
 #card-center-4 {
@@ -482,7 +486,7 @@ body {
   width: 350px;
   border-radius: 25px;
   margin-bottom: 25px;
-  border-color:white ;
+  border-color: white;
   position: absolute;
   left: 575px;
   top: 446px;
@@ -501,19 +505,19 @@ body {
 #card-center-4 .person-initial .text-block-initial {
   width: 60px;
   height: 60px;
-  background-color: #F2F6FF;
+  background-color: #f2f6ff;
   color: white;
-  padding:12.5px;
+  padding: 12.5px;
   border-radius: 100%;
 }
 
 #card-center-4 .person-initial .text-block-initial p {
   height: 24px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-  color: #234CAD;
+  color: #234cad;
   margin: 6.5px 6.5px 6.5px 7.5px;
 }
 
@@ -522,15 +526,14 @@ body {
   width: 4px;
   top: 24px;
   left: 70px;
-  
 }
 
 .paragraph-4 h4 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
-  color: #234CAD;
+  color: #234cad;
   position: absolute;
   left: 100px;
   top: 28px;
@@ -538,12 +541,12 @@ body {
 }
 
 .paragraph-4 p {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 21px;
   width: 184px;
-  color: #234CAD;
+  color: #234cad;
   position: absolute;
   left: 100px;
   top: 52px;
@@ -558,11 +561,11 @@ body {
   right: 20px;
   top: 28px;
   bottom: 59px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 10px;
   font-weight: 400;
   line-height: 13px;
-  color: #234CAD;
+  color: #234cad;
   opacity: 0.75;
 }
 
@@ -589,11 +592,11 @@ body {
   left: 34.29px;
   right: 33.71px;
   width: 63px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   font-size: 10px;
   line-height: 13px;
-  color: #234CAD;
+  color: #234cad;
 }
 
 #card-right-2 {
@@ -601,7 +604,7 @@ body {
   width: 350px;
   border-radius: 20px;
   margin-bottom: 25px;
-  border-color:white ;
+  border-color: white;
   position: absolute;
   left: 876px;
   top: 261px;
@@ -620,19 +623,19 @@ body {
 #card-right-2 .person-initial .text-block-initial {
   width: 60px;
   height: 60px;
-  background-color: #F2F6FF;
+  background-color: #f2f6ff;
   color: white;
-  padding:12.5px;
+  padding: 12.5px;
   border-radius: 100%;
 }
 
 #card-right-2 .person-initial .text-block-initial p {
   height: 24px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-  color: #234CAD;
+  color: #234cad;
   margin: 6.5px 6.5px 6.5px 5px;
   width: 26px;
 }
@@ -642,17 +645,15 @@ body {
   width: 4px;
   top: 24px;
   left: 70px;
-  
 }
-
 
 .paragraph-right-2 h4 {
   width: 96px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
-  color: #234CAD;
+  color: #234cad;
   position: absolute;
   left: 100px;
   top: 28px;
@@ -662,11 +663,11 @@ body {
 
 .paragraph-right-2 p {
   width: 156px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 21px;
-  color: #234CAD;
+  color: #234cad;
   position: absolute;
   left: 100px;
   top: 52px;
@@ -681,11 +682,11 @@ body {
   right: 20px;
   top: 28px;
   bottom: 59px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 10px;
   font-weight: 400;
   line-height: 13px;
-  color: #234CAD;
+  color: #234cad;
   opacity: 0.75;
 }
 
@@ -694,7 +695,7 @@ body {
   width: 350px;
   border-radius: 25px;
   margin-bottom: 25px;
-  border-color:white ;
+  border-color: white;
   position: absolute;
   left: 975px;
   top: 386px;
@@ -705,7 +706,7 @@ body {
 #card-right-3 .message-card-right-3 .text-block-message {
   width: 60px;
   height: 60px;
-  background-color: #F2F6FF;
+  background-color: #f2f6ff;
   color: white;
   border-radius: 100%;
   position: absolute;
@@ -717,7 +718,7 @@ body {
 
 #card-right-3 .message-card-right-3 .text-block-message i {
   position: absolute;
-  color: #234CAD;
+  color: #234cad;
   left: 22px;
   top: 30px;
   bottom: 30px;
@@ -725,12 +726,12 @@ body {
 }
 
 .paragraph-right-3 h4 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   width: 120px;
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
-  color: #234CAD;
+  color: #234cad;
   position: absolute;
   left: 100px;
   top: 28px;
@@ -740,12 +741,12 @@ body {
 
 .paragraph-right-3 p {
   width: 224px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   width: 230px;
   font-size: 12px;
   line-height: 21px;
-  color: #234CAD;
+  color: #234cad;
   position: absolute;
   left: 100px;
   top: 52px;
@@ -772,7 +773,7 @@ body {
   top: 28px;
   right: 12px;
   bottom: 23.79px;
-  color: #234CAD;
+  color: #234cad;
 }
 
 /* Cloud Section */
@@ -780,7 +781,7 @@ body {
 .cloud-section .fa-stack {
   width: 100px;
   height: 100px;
-  background-color: #F2F6FF;
+  background-color: #f2f6ff;
   position: absolute;
   border-radius: 100%;
   left: 100px;
@@ -795,17 +796,17 @@ body {
   top: 30px;
   right: 28px;
   bottom: 34px;
-  color: #234CAD;
+  color: #234cad;
 }
 
 #cloud-section-left .paragraph-cloud-section h4 {
   width: 178px;
   height: 49px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 49px;
-  color: #234CAD;
+  color: #234cad;
   position: absolute;
   left: 230px;
   top: 933px;
@@ -816,11 +817,11 @@ body {
 #cloud-section-left .paragraph-cloud-section p {
   width: 406px;
   height: 36px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 36px;
-  color: #234CAD;
+  color: #234cad;
   position: absolute;
   left: 230px;
   top: 982px;
@@ -833,7 +834,7 @@ body {
 .secured-section .fa-stack {
   width: 100px;
   height: 100px;
-  background-color: #F2F6FF;
+  background-color: #f2f6ff;
   position: absolute;
   border-radius: 100%;
   left: 787px;
@@ -848,17 +849,17 @@ body {
   top: 30px;
   right: 28px;
   bottom: 34px;
-  color: #234CAD;
+  color: #234cad;
 }
 
 #secured-section-left .paragraph-secured-section h4 {
   width: 111px;
   height: 49px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 49px;
-  color: #234CAD;
+  color: #234cad;
   position: absolute;
   left: 917px;
   top: 933px;
@@ -869,11 +870,11 @@ body {
 #secured-section-left .paragraph-secured-section p {
   width: 428px;
   height: 36px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 36px;
-  color: #234CAD;
+  color: #234cad;
   position: absolute;
   left: 917px;
   top: 982px;
@@ -882,210 +883,78 @@ body {
 }
 
 /* web section2 */
-.web-section2{
+.web-section2 {
   position: absolute;
   width: 1015px;
   height: 575px;
   left: 213px;
   top: 1175px;
 }
-.card{
+.card {
   position: absolute;
-width: 575px;
-height: 575px;
-left: 0px;
-top: 0px;
-/* 
+  width: 575px;
+  height: 575px;
+  left: 0px;
+  top: 0px;
+  /* 
 position: absolute;
 left: 0%;
 right: 43.35%;
 top: 0%;
 bottom: 0%; */
 
-background: #F2F6FF;
-border-radius: 60px;
+  background: #f2f6ff;
+  border-radius: 60px;
 }
 
-
-.card-content{
+.card-content {
   position: absolute;
   left: 0%;
   right: 43.35%;
   top: 0%;
   bottom: 0%;
-  
-  background: #F2F6FF;
+
+  background: #f2f6ff;
   border-radius: 60px;
 }
-.card-1{
+.card-1 {
   position: absolute;
-width: 
-438px;
-height: 
-125px;
-top: 108px;
-left: 69px;
+  width: 438px;
+  height: 125px;
+  top: 108px;
+  left: 69px;
 
-
-background: #FFFFFF;
-border-radius: 25px;
+  background: #ffffff;
+  border-radius: 25px;
 }
-.initial{
-  position: absolute;
-left: 9.26%;
-right: 83.35%;
-top: 23.13%;
-bottom: 63.83%;
-width: 75px;
-height: 75px;
-border-radius: 50%;
-background-color: #F2F6FF;
-}
-.Pinitial{
-  position: absolute;
-height: 29px;
-left: 33.33%;
-right: 33.33%;
-top: calc(50% - 29px/2);
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 29px;
-/* identical to box height, or 132% */
-
-
-color: #234CAD;
-}
-.notifikasi{
-  position: absolute;
-  box-sizing: border-box;
-  border-radius: 50%;
-  height: 10px;
-  left: 70%;
-  right: 60%;
-  width: 20px;
-  height: 20px;
-  background: #234CAD;
-border: 2.5px solid #FFFFFF;
-}
-.Pnumber{
-  position: absolute;
-height: 10px;
-left: 40%;
-right: 40%;
-top: calc(50% - 10px/2);
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 700;
-font-size: 7px;
-line-height: 10px;
-/* identical to box height, or 143% */
-
-
-color: #ffffff;
-
-}
-.notifikasi{
-  position: absolute;
-  box-sizing: border-box;
-  border-radius: 50%;
-  height: 10px;
-  left: 70%;
-  right: 60%;
-  width: 20px;
-  height: 20px;
-  background: #234CAD;
-border: 2.5px solid #FFFFFF;
-}
-.pnamee{
-  position: absolute;
-margin-left: 150%;
-size: 20px;
-bottom: 0%;
-top: calc(50% - 27px/2 - 15px);
-width: 155px;
-color: #234CAD;
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 26px;
-}
-.pmassage{
-position: absolute;
-margin-left: 150%;
-size: 15px;
-width: 400%;
-bottom: 0%;
-top: calc(50% - 27px/2 + 15px);
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 26px;
-
-
-color: #234CAD;
-}
-.ptime{
-  position: absolute;
-  margin-left: 400%;
-  width: 300%;
-top: calc(50% - 17px/2 - 20px);
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 16px;
-/* identical to box height, or 135% */
-
-
-color: #234CAD;
-
-mix-blend-mode: normal;
-opacity: 0.75;
-}
-.card2{
-  position: absolute;
-  width: 350px;
-  height: 100px;
-  left: 133px;
-  top: 44.87%;
-  background: #FFFFFF;
-  border-radius: 20px;
-mix-blend-mode: normal;
-opacity: 0.85;
-}
-.initial2{
+.initial {
   position: absolute;
   left: 9.26%;
   right: 83.35%;
-  top: 23%;
+  top: 23.13%;
   bottom: 63.83%;
-width: 60px;
-height: 60px;
-border-radius: 50%;
-background-color: #F2F6FF;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #f2f6ff;
 }
-.Pinitial2{
+.Pinitial {
   position: absolute;
-  height: 24px;
-  left: 30%;
-  right: 30%;
-  top: calc(50% - 24px/2);
-  
-  font-family: 'Nunito';
+  height: 29px;
+  left: 33.33%;
+  right: 33.33%;
+  top: calc(50% - 29px / 2);
+
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
-  color: #234CAD;
+  font-size: 22px;
+  line-height: 29px;
+  /* identical to box height, or 132% */
+
+  color: #234cad;
 }
-.notifikasi2{
+.notifikasi {
   position: absolute;
   box-sizing: border-box;
   border-radius: 50%;
@@ -1094,185 +963,363 @@ background-color: #F2F6FF;
   right: 60%;
   width: 20px;
   height: 20px;
-  background: #234CAD;
-border: 2.5px solid #FFFFFF;
+  background: #234cad;
+  border: 2.5px solid #ffffff;
 }
-.Pnumber2{
+.Pnumber {
   position: absolute;
-height: 10px;
-left: 40%;
-right: 40%;
-top: calc(50% - 10px/2);
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 700;
-font-size: 7px;
-line-height: 10px;
-/* identical to box height, or 143% */
-
-
-color: #ffffff;
-
-}
-.pnamee2{
-  position: absolute;
-margin-left: 150%;
-bottom: 0%;
-top: calc(50% - 27px/2 - 15px);
-width: 155px;
-color: #234CAD;
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 26px;
-}
-.pmassage2{
-  position: absolute;
-  margin-left: 150%;
-  size: 15px;
-  width: 400%;
-  bottom: 0%;
-  top: calc(50% - 27px/2 + 15px);
-  font-family: 'Nunito';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 26px;
-  
-  
-  color: #234CAD;
-  }
-  .ptime2{
-    position: absolute;
-    margin-left: 350%;
-    width: 300%;
-  top: calc(50% - 17px/2 - 20px);
-  
-  font-family: 'Nunito';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 16px;
-  /* identical to box height, or 135% */
-  
-  
-  color: #234CAD;
-  
-  mix-blend-mode: normal;
-  opacity: 0.75;
-  }
-  .card3{
-    position: absolute;
-    width: 282px;
-    height: 85px;
-    left: 147px;
-    top: 66.61%;
-    background: #FFFFFF;
-    border-radius: 20px;
-  mix-blend-mode: normal;
-  opacity: 0.85;
-  }
-  .initial3{
-    position: absolute;
-    left: 9.26%;
-    right: 83.35%;
-    top: 23%;
-    bottom: 63.83%;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-color: #F2F6FF;
-  }
-  .Pinitial3{
-    position: absolute;
-    height: 24px;
-    left: 30%;
-    right: 30%;
-    top: calc(50% - 24px/2);
-    
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 24px;
-    color: #234CAD;
-  }
-  .notifikasi3{
-    position: absolute;
-    box-sizing: border-box;
-    border-radius: 50%;
-    height: 10px;
-    left: 70%;
-    right: 60%;
-    width: 20px;
-    height: 20px;
-    background: #234CAD;
-  border: 2.5px solid #FFFFFF;
-  }
-  .Pnumber3{
-    position: absolute;
   height: 10px;
   left: 40%;
   right: 40%;
-  top: calc(50% - 10px/2);
-  
-  font-family: 'Nunito';
+  top: calc(50% - 10px / 2);
+
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 700;
   font-size: 7px;
   line-height: 10px;
   /* identical to box height, or 143% */
-  
-  
+
   color: #ffffff;
-  
-  }
-  .pnamee3{
-    position: absolute;
+}
+.notifikasi {
+  position: absolute;
+  box-sizing: border-box;
+  border-radius: 50%;
+  height: 10px;
+  left: 70%;
+  right: 60%;
+  width: 20px;
+  height: 20px;
+  background: #234cad;
+  border: 2.5px solid #ffffff;
+}
+.pnamee {
+  position: absolute;
+  margin-left: 150%;
+  size: 20px;
+  bottom: 0%;
+  top: calc(50% - 27px / 2 - 15px);
+  width: 155px;
+  color: #234cad;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+.pmassage {
+  position: absolute;
+  margin-left: 150%;
+  size: 15px;
+  width: 400%;
+  bottom: 0%;
+  top: calc(50% - 27px / 2 + 15px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+
+  color: #234cad;
+}
+.ptime {
+  position: absolute;
+  margin-left: 400%;
+  width: 300%;
+  top: calc(50% - 17px / 2 - 20px);
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 135% */
+
+  color: #234cad;
+
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+.card2 {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  left: 133px;
+  top: 44.87%;
+  background: #ffffff;
+  border-radius: 20px;
+  mix-blend-mode: normal;
+  opacity: 0.85;
+}
+.initial2 {
+  position: absolute;
+  left: 9.26%;
+  right: 83.35%;
+  top: 23%;
+  bottom: 63.83%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+}
+.Pinitial2 {
+  position: absolute;
+  height: 24px;
+  left: 30%;
+  right: 30%;
+  top: calc(50% - 24px / 2);
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #234cad;
+}
+.notifikasi2 {
+  position: absolute;
+  box-sizing: border-box;
+  border-radius: 50%;
+  height: 10px;
+  left: 70%;
+  right: 60%;
+  width: 20px;
+  height: 20px;
+  background: #234cad;
+  border: 2.5px solid #ffffff;
+}
+.Pnumber2 {
+  position: absolute;
+  height: 10px;
+  left: 40%;
+  right: 40%;
+  top: calc(50% - 10px / 2);
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7px;
+  line-height: 10px;
+  /* identical to box height, or 143% */
+
+  color: #ffffff;
+}
+.pnamee2 {
+  position: absolute;
   margin-left: 150%;
   bottom: 0%;
-  top: calc(50% - 27px/2 - 15px);
+  top: calc(50% - 27px / 2 - 15px);
   width: 155px;
-  color: #234CAD;
-  font-family: 'Nunito';
+  color: #234cad;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+}
+.pmassage2 {
+  position: absolute;
+  margin-left: 150%;
+  size: 15px;
+  width: 400%;
+  bottom: 0%;
+  top: calc(50% - 27px / 2 + 15px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+
+  color: #234cad;
+}
+.ptime2 {
+  position: absolute;
+  margin-left: 350%;
+  width: 300%;
+  top: calc(50% - 17px / 2 - 20px);
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  /* identical to box height, or 135% */
+
+  color: #234cad;
+
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+.card3 {
+  position: absolute;
+  width: 282px;
+  height: 85px;
+  left: 147px;
+  top: 66.61%;
+  background: #ffffff;
+  border-radius: 20px;
+  mix-blend-mode: normal;
+  opacity: 0.85;
+}
+.initial3 {
+  position: absolute;
+  left: 9.26%;
+  right: 83.35%;
+  top: 23%;
+  bottom: 63.83%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+}
+.Pinitial3 {
+  position: absolute;
+  height: 24px;
+  left: 30%;
+  right: 30%;
+  top: calc(50% - 24px / 2);
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  color: #234cad;
+}
+.notifikasi3 {
+  position: absolute;
+  box-sizing: border-box;
+  border-radius: 50%;
+  height: 10px;
+  left: 70%;
+  right: 60%;
+  width: 20px;
+  height: 20px;
+  background: #234cad;
+  border: 2.5px solid #ffffff;
+}
+.Pnumber3 {
+  position: absolute;
+  height: 10px;
+  left: 40%;
+  right: 40%;
+  top: calc(50% - 10px / 2);
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7px;
+  line-height: 10px;
+  /* identical to box height, or 143% */
+
+  color: #ffffff;
+}
+.pnamee3 {
+  position: absolute;
+  margin-left: 150%;
+  bottom: 0%;
+  top: calc(50% - 27px / 2 - 15px);
+  width: 155px;
+  color: #234cad;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 26px;
-  }
-  .pmassage3{
-    position: absolute;
-    margin-left: 150%;
-    width: 400%;
-    bottom: 0%;
-    top: calc(50% - 27px/2 + 15px);
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 9px;
-    line-height: 26px;
-    
-    
-    color: #234CAD;
-    }
-    .ptime3{
-      position: absolute;
-      margin-left: 300%;
-      width: 300%;
-    top: calc(50% - 17px/2 - 20px);
-    
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 16px;
-    /* identical to box height, or 135% */
-    
-    
-    color: #234CAD;
-    
-    mix-blend-mode: normal;
-    opacity: 0.75;
-    }
+}
+.pmassage3 {
+  position: absolute;
+  margin-left: 150%;
+  width: 400%;
+  bottom: 0%;
+  top: calc(50% - 27px / 2 + 15px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 26px;
+
+  color: #234cad;
+}
+.ptime3 {
+  position: absolute;
+  margin-left: 300%;
+  width: 300%;
+  top: calc(50% - 17px / 2 - 20px);
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  /* identical to box height, or 135% */
+
+  color: #234cad;
+
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+.content {
+  position: absolute;
+  width: 340px;
+  height: 360px;
+  left: 675px;
+  top: 108px;
+}
+.pbodytext {
+  position: absolute;
+  left: 15%;
+  right: 3.55%;
+  top: 52.35%;
+  bottom: 38.61%;
+  width: 300px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  color: #234cad;
+}
+.maintitle {
+  position: absolute;
+  left: 15%;
+  right: 0%;
+  bottom: 52%;
+  width: 340px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  /* or 117% */
+
+  color: #234cad;
+}
+.buttonprimary {
+  position: absolute;
+  left: 15%;
+  right: 13.79%;
+  top: 80%;
+  bottom: 18.61%;
+}
+.buttonp {
+  width: 200px;
+
+  height: 65px;
+  background: #ffffff;
+  border: 2px solid #234cad;
+  border-radius: 32.5px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 36px;
+  /* identical to box height, or 164% */
+
+  text-align: center;
+
+  color: #234cad;
+}
