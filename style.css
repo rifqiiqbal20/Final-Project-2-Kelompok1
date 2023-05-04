@@ -1323,3 +1323,160 @@ bottom: 0%; */
 
   color: #234cad;
 }
+.web-section3 {
+  position: absolute;
+  width: 1240px;
+  height: 908px;
+  left: 100px;
+  top: 1900px;
+}
+.textcontent {
+  position: absolute;
+  width: 723px;
+  height: 133px;
+  left: 259px;
+  top: 0px;
+}
+.maintitlee {
+  position: absolute;
+  left: 10%;
+  right: 20.81%;
+  top: 0%;
+  bottom: 93.83%;
+  width: 723px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  /* identical to box height, or 117% */
+
+  text-align: center;
+
+  color: #234cad;
+}
+.body-textt {
+  position: absolute;
+  left: 30%;
+  right: 32.82%;
+  top: 50%;
+  bottom: 85.35%;
+  width: 425px;
+  height: 52px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+
+  color: #234cad;
+}
+.content3 {
+  position: absolute;
+  width: 1240px;
+  height: 625px;
+  left: 0px;
+  top: 233px;
+  background: #f2f6ff;
+  border-radius: 60px;
+}
+.UIkomponen {
+  position: absolute;
+  width: 1026px;
+  height: 595px;
+  left: 107px;
+  top: 263px;
+}
+.card1 {
+  position: absolute;
+
+  right: 40%;
+  top: -20%;
+  bottom: 39.65%;
+  width: 276px;
+  height: 160px;
+  background: #ffffff;
+  border-radius: 25px;
+}
+.icon1 {
+  /* box-sizing: border-box; */
+
+  position: absolute;
+  left: 10%;
+  right: 54.68%;
+  top: 30%;
+  bottom: 48.46%;
+}
+.title3 {
+  position: absolute;
+  height: 21px;
+  left: 35%;
+  top: 20%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #234cad;
+}
+.information3 {
+  position: absolute;
+  height: 21px;
+  left: 35%;
+  top: 35%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+
+  color: #234cad;
+}
+.cardd2{
+  position: absolute;
+left: 63.15%;
+right: 8.63%;
+top: -20%;
+bottom: 46.26%;
+width: 350px;
+height: 100px;
+background: #FFFFFF;
+border-radius: 20px;
+}
+.icon2{
+  position: absolute;
+  left: 10%;
+  right: 54.68%;
+  top: 20%;
+  bottom: 48.46%;
+}
+.tittlec2{
+  position: absolute;
+  height: 21px;
+  left: 35%;
+  top: 25%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #234cad;
+}
+.amount{
+  position: absolute;
+height: 21px;
+left: 35%;
+right: 30%;
+top: calc(50% - 21px/2 + 12px);
+
+font-family: 'Basic';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 21px;
+color: #234CAD;
+}
