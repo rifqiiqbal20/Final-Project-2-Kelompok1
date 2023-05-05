@@ -1392,8 +1392,8 @@ bottom: 0%; */
 .card1 {
   position: absolute;
 
-  right: 40%;
-  top: -20%;
+  right: 37%;
+  top: -15%;
   bottom: 39.65%;
   width: 276px;
   height: 160px;
@@ -1404,7 +1404,7 @@ bottom: 0%; */
   /* box-sizing: border-box; */
 
   position: absolute;
-  left: 10%;
+  left: 15%;
   right: 54.68%;
   top: 30%;
   bottom: 48.46%;
@@ -1412,7 +1412,7 @@ bottom: 0%; */
 .title3 {
   position: absolute;
   height: 21px;
-  left: 35%;
+  left: 40%;
   top: 20%;
   font-family: "Nunito";
   font-style: normal;
@@ -1425,7 +1425,7 @@ bottom: 0%; */
 .information3 {
   position: absolute;
   height: 21px;
-  left: 35%;
+  left: 40%;
   top: 35%;
   font-family: "Nunito";
   font-style: normal;
@@ -1435,25 +1435,29 @@ bottom: 0%; */
 
   color: #234cad;
 }
-.cardd2{
-  position: absolute;
-left: 63.15%;
-right: 8.63%;
-top: -20%;
-bottom: 46.26%;
-width: 350px;
-height: 100px;
-background: #FFFFFF;
-border-radius: 20px;
+.myperson {
+  left: 20%;
+  right: -200%;
 }
-.icon2{
+.cardd2 {
+  position: absolute;
+  left: 65%;
+  right: 8.63%;
+  top: -15%;
+  bottom: 46.26%;
+  width: 350px;
+  height: 100px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.icon2 {
   position: absolute;
   left: 10%;
   right: 54.68%;
   top: 20%;
   bottom: 48.46%;
 }
-.tittlec2{
+.tittlec2 {
   position: absolute;
   height: 21px;
   left: 35%;
@@ -1466,17 +1470,233 @@ border-radius: 20px;
 
   color: #234cad;
 }
-.amount{
+.amount {
   position: absolute;
-height: 21px;
-left: 35%;
-right: 30%;
-top: calc(50% - 21px/2 + 12px);
+  height: 21px;
+  left: 35%;
+  right: 30%;
+  top: calc(50% - 21px / 2 + 12px);
 
-font-family: 'Basic';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 21px;
-color: #234CAD;
+  font-family: "Basic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #234cad;
+}
+.cardd3 {
+  position: absolute;
+  left: 0%;
+  right: 50%;
+  bottom: 33.59%;
+  width: 350px;
+  height: 100px;
+
+  top: 2%;
+  background: #ffffff;
+  border-radius: 25px;
+}
+.icon3 {
+  position: absolute;
+  left: 10%;
+  right: 84.92%;
+  top: 20%;
+
+  bottom: 48.46%;
+  background-color: #f2f6ff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.namecr3 {
+  position: absolute;
+  height: 21px;
+  left: 33%;
+  top: 30%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #234cad;
+}
+.masaagecr3 {
+  position: absolute;
+  height: 21px;
+  left: 33%;
+  top: 50%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #234cad;
+}
+.card4 {
+  position: absolute;
+  left: 46%;
+  right: 24.76%;
+  top: -38%;
+  bottom: 60.02%;
+  width: 350px;
+  height: 100px;
+  background: #ffffff;
+  border-radius: 25px;
+}
+.initialcr4 {
+  position: absolute;
+  left: 9.26%;
+  right: 83.35%;
+  top: 20%;
+  bottom: 63.83%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+}
+.Pinitialcr4 {
+  position: absolute;
+  height: 29px;
+  left: 33.33%;
+  right: 33.33%;
+  top: calc(50% - 29px / 2);
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  /* identical to box height, or 132% */
+
+  color: #234cad;
+}
+.Pnumbercr4 {
+  position: absolute;
+  height: 10px;
+  left: 40%;
+  right: 40%;
+  top: calc(50% - 10px / 2);
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6px;
+  line-height: 10px;
+  /* identical to box height, or 143% */
+
+  color: #ffffff;
+}
+.notifikasicr4 {
+  position: absolute;
+  box-sizing: border-box;
+  border-radius: 50%;
+  height: 10px;
+  left: 70%;
+  right: 60%;
+  width: 20px;
+  height: 20px;
+  background: #234cad;
+  border: 2.5px solid #ffffff;
+}
+.pnamecr4 {
+  position: absolute;
+  margin-left: 150%;
+  size: 20px;
+  bottom: 0%;
+  top: 20%;
+  width: 155px;
+  color: #234cad;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+}
+.pmassagecr4 {
+  position: absolute;
+  margin-left: 150%;
+  size: 15px;
+  width: 400%;
+  bottom: 0%;
+  top: 50%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+
+  color: #234cad;
+}
+.ptimecr4 {
+  position: absolute;
+  margin-left: 420%;
+  width: 300%;
+  top: 20%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  color: #234cad;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+.card5 {
+  position: absolute;
+  right: 30%;
+  top: 17%;
+  bottom: 39.65%;
+  width: 350px;
+  height: 100px;
+  background: #ffffff;
+  border-radius: 25px;
+}
+
+.card6 {
+  position: absolute;
+  left: 36%;
+  right: 24.76%;
+  top: 40%;
+  bottom: 60.02%;
+  width: 130px;
+  height: 160px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.iconcr6 {
+  margin: 40px 0 0 35px;
+}
+.amountcr6 {
+  position: absolute;
+  left: 27%;
+  top: 85%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  color: #234cad;
+}
+.card7{
+  position: absolute;
+  left: 27%;
+  right: 24.76%;
+  top: 30%;
+  bottom: 60.02%;
+  width: 75px;
+  height: 75px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.card8 {
+  position: absolute;
+  left: 36%;
+  right: 24.76%;
+  top: -34%;
+  bottom: 60.02%;
+  width: 75px;
+  height: 75px;
+  background: #ffffff;
+  border-radius: 20px;
 }
