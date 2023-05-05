@@ -1677,7 +1677,7 @@ bottom: 0%; */
   line-height: 13px;
   color: #234cad;
 }
-.card7{
+.card7 {
   position: absolute;
   left: 27%;
   right: 24.76%;
@@ -1699,4 +1699,145 @@ bottom: 0%; */
   height: 75px;
   background: #ffffff;
   border-radius: 20px;
+}
+.web-section4 {
+  position: absolute;
+  width: 1040px;
+  height: 575px;
+  left: 200px;
+  top: 2858px;
+}
+.contentsc4 {
+  position: absolute;
+  width: 365px;
+  height: 360px;
+  left: 0px;
+  top: -30px;
+}
+.textcontentsc4 {
+  position: absolute;
+  width: 365px;
+  height: 245px;
+  left: 0px;
+  top: 108px;
+}
+.maintitlesc4 {
+  position: absolute;
+  left: 0%;
+  right: 64.9%;
+  top: 18.78%;
+  bottom: 52%;
+  width: 365px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #234cad;
+}
+.bodytitlesc4 {
+  position: absolute;
+  left: 0%;
+  right: 70.77%;
+  top: 100%;
+  bottom: 38.61%;
+  width: 304px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #234cad;
+}
+.buttonprimarysc4 {
+  position: absolute;
+  left: 0%;
+  right: 70.77%;
+  top: 150%;
+  bottom: 18.61%;
+}
+.buttonpsc4 {
+  width: 200px;
+
+  height: 65px;
+  background: #ffffff;
+  border: 2px solid #234cad;
+  border-radius: 32.5px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+  color: #234cad;
+}
+.cardsc4 {
+  position: absolute;
+  width: 575px;
+  height: 575px;
+  left: 465px;
+  top: 0px;
+  background: #f2f6ff;
+  border-radius: 60px;
+}
+.UIkomponensc4 {
+  position: absolute;
+  width: 627px;
+  height: 555px;
+  left: 540px;
+  top: 100px;
+}
+.card1sc4 {
+  position: absolute;
+  width: 276px;
+  height: 160px;
+  right: 130%;
+  top: 10px;
+  background: #ffffff;
+  border-radius: 25px;
+}
+.card2sc4{
+  position: absolute;
+  width: 276px;
+  height: 160px;
+  right: 130%;
+  top: 35%;
+  background: #ffffff;
+  border-radius: 25px;
+}
+.card3sc4{
+  position: absolute;
+  width: 276px;
+  height: 160px;
+  right: 130%;
+  top: 69%;
+  background: #ffff;
+  border-radius: 25px;
+}
+.card4sc4{
+  position: absolute;
+  width: 276px;
+  height: 160px;
+  right: 80%;
+  top: 69%;
+  background: #ffff;
+  border-radius: 25px;
+}
+.card5sc4{
+  position: absolute;
+  width: 276px;
+  height: 160px;
+  right: 80%;
+  top: 35%;
+  background: #ffffff;
+  border-radius: 25px;
+}
+.card6sc4{
+  position: absolute;
+  width: 276px;
+  height: 160px;
+  right: 80%;
+  top: 10px;
+  background: #ffffff;
+  border-radius: 25px;
 }
