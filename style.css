@@ -11,7 +11,9 @@ body {
   top: 0px;
   color: #ffffff;
 }
-
+.sidenav a:hover{
+  transform: scale(1.1);
+}
 /* navbar */
 .sidenav {
   height: 100%;
@@ -63,6 +65,12 @@ body {
   right: 1290px;
 }
 
+.nav-item a:hover{
+  background-size: 100% 100%;
+  background-position-x: left;
+  transform: scale(1.1);
+  transition: 0.2s;
+}
 .navbar .nav-item #home {
   width: 49px;
   height: 29px;
@@ -268,7 +276,10 @@ body {
   right: 940px;
   bottom: 107px;
 }
-
+#card-left .btn:hover{
+  transform: scale(1.1);
+  background-color: #e2e2e2;
+}
 /* Card Center */
 
 #card-center {
@@ -1305,6 +1316,9 @@ bottom: 0%; */
   top: 80%;
   bottom: 18.61%;
 }
+.buttonp:hover{
+  background-color: #e2e2e2;
+}
 .buttonp {
   width: 200px;
 
@@ -1756,6 +1770,11 @@ bottom: 0%; */
   top: 150%;
   bottom: 18.61%;
 }
+.buttonpsc4:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+  background-color: #e2e2e2;
+}
 .buttonpsc4 {
   width: 200px;
 
@@ -1796,7 +1815,7 @@ bottom: 0%; */
   background: #ffffff;
   border-radius: 25px;
 }
-.card2sc4{
+.card2sc4 {
   position: absolute;
   width: 276px;
   height: 160px;
@@ -1805,7 +1824,7 @@ bottom: 0%; */
   background: #ffffff;
   border-radius: 25px;
 }
-.card3sc4{
+.card3sc4 {
   position: absolute;
   width: 276px;
   height: 160px;
@@ -1814,7 +1833,7 @@ bottom: 0%; */
   background: #ffff;
   border-radius: 25px;
 }
-.card4sc4{
+.card4sc4 {
   position: absolute;
   width: 276px;
   height: 160px;
@@ -1823,7 +1842,7 @@ bottom: 0%; */
   background: #ffff;
   border-radius: 25px;
 }
-.card5sc4{
+.card5sc4 {
   position: absolute;
   width: 276px;
   height: 160px;
@@ -1832,7 +1851,7 @@ bottom: 0%; */
   background: #ffffff;
   border-radius: 25px;
 }
-.card6sc4{
+.card6sc4 {
   position: absolute;
   width: 276px;
   height: 160px;
@@ -1840,4 +1859,368 @@ bottom: 0%; */
   top: 10px;
   background: #ffffff;
   border-radius: 25px;
+}
+.web-section5 {
+  position: absolute;
+  width: 1240px;
+  height: 588px;
+  left: 100px;
+  top: 3583px;
+}
+.textcontent-sc5 {
+  position: absolute;
+  width: 597px;
+  height: 133px;
+  left: 322px;
+  top: 0px;
+}
+.maintitlesc5 {
+  position: absolute;
+  left: 5%;
+  right: 25.89%;
+  top: 0%;
+  bottom: 90.48%;
+  width: 597px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #234cad;
+}
+.bodytextsc5 {
+  position: absolute;
+  left: 22.32%;
+  top: 60%;
+  bottom: 77.38%;
+  width: 365px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #234cad;
+}
+.web-elemencard1-sc5 {
+  position: absolute;
+  left: 0%;
+  right: 69.35%;
+  top: 35.37%;
+  bottom: 0%;
+  background: #f2f6ff;
+  border-radius: 60px;
+}
+.subtitle-cr1-sc5 {
+  position: absolute;
+  height: 40px;
+  left: 39.42%;
+  right: 38.69%;
+  width: 60px;
+  top: calc(50% - 40px / 2 - 120px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  color: #234cad;
+}
+.price-cr1-sc5 {
+  position: absolute;
+  height: 48px;
+  left: 37.59%;
+  right: 37.59%;
+  top: calc(50% - 48px / 2 - 41px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 48px;
+  text-align: center;
+  color: #234cad;
+}
+.bodytext-cr1-sc5 {
+  position: absolute;
+  height: 32px;
+  left: 33.58%;
+  right: 32.48%;
+  top: calc(50% - 32px / 2 + 14px);
+  width: 93;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #234cad;
+}
+.learnmore-cr1-sc5 {
+  position: absolute;
+  left: 14%;
+  top: 73.21%;
+  bottom: 0%;
+  width: 274px;
+  height: 75px;
+  background: #ffffff;
+  border-radius: 37.5px;
+}
+.textlearnmore-cr1-sc5 {
+  position: absolute;
+  height: 40px;
+  left: 26.28%;
+  right: 25.91%;
+  top: calc(50% - 40px / 2 + 0.5px);
+  width: 134px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  color: #234cad;
+}
+.learnmore-cr1-sc5:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+  cursor: pointer;
+  background-color: #e2e2e2;
+}
+.web-elemencard2-sc5 {
+  position: absolute;
+  left: 34.68%;
+  right: 34.68%;
+  top: 35.37%;
+  bottom: 0%;
+  border: 3px solid #234cad;
+  border-radius: 60px;
+}
+.learnmore-cr2-sc5 {
+  position: absolute;
+  left: 14%;
+  top: 73.21%;
+  bottom: 0%;
+  width: 274px;
+  height: 75px;
+  border: 3px solid #234cad;
+  border-radius: 37.5px;
+}
+.learnmore-cr2-sc5:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+  cursor: pointer;
+  background-color: #e2e2e2;
+}
+.web-elemencard3-sc5 {
+  position: absolute;
+  left: 69.35%;
+  right: 0%;
+  top: 35.37%;
+  bottom: 0%;
+  width: 380px;
+  height: 380px;
+  background: #f2f6ff;
+  border-radius: 60px;
+}
+.web-section6 {
+  position: absolute;
+  width: 1240px;
+  height: 383px;
+  left: 100px;
+  top: 4321px;
+  background: #f2f6ff;
+  border-radius: 60px;
+}
+.newsletter_card {
+  background: #f2f6ff;
+  border-radius: 60px;
+  width: 1240px;
+  height: 383px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 20px #fffefe;
+}
+
+.newsletter_card span {
+  position: absolute;
+  left: 27.1%;
+  right: 27.02%;
+  top: 19.58%;
+  bottom: 65.8%;
+  width: 569px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #234cad;
+}
+
+.newsletter_card p {
+  position: absolute;
+  left: 36.05%;
+  right: 35.89%;
+  top: 40.73%;
+  bottom: 45.69%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #234cad;
+}
+
+.email {
+  position: absolute;
+  left: 29.84%;
+  right: 29.84%;
+  top: 63.45%;
+  bottom: 19.58%;
+  background: #ffffff;
+  border-radius: 17.5px;
+  width: 500px;
+  height: 65px;
+}
+
+.email input {
+  width: 100%;
+  height: 60px;
+  border: 0;
+  background: none;
+  padding: 0 30px;
+  outline: none;
+  font-size: 15px;
+  padding-right: 80px;
+}
+
+.email button {
+  background: #0a60e0;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s linear;
+}
+
+.email button:hover {
+  opacity: 0.5;
+}
+
+.email:hover {
+  transform: scale(1.02);
+}
+.footer {
+  position: absolute;
+  width: 941px;
+  height: 166px;
+  left: 249px;
+  top: 4854px;
+}
+.companyname {
+  position: absolute;
+  height: 49px;
+  left: 0%;
+  right: 85.33%;
+  top: calc(50% - 49px / 2 - 58.5px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 49px;
+  color: #234cad;
+}
+.copyright {
+  position: absolute;
+  height: 58px;
+  left: 0%;
+  right: 82.68%;
+  top: calc(50% - 58px / 2 + 15px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #234cad;
+}
+.produk-footer {
+  position: absolute;
+  left: 33.26%;
+  right: 55.05%;
+  top: 0%;
+  bottom: 0%;
+}
+.title-produk {
+  position: absolute;
+  height: 49px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 49px / 2 - 58.5px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 49px;
+  color: #234cad;
+}
+.item1 {
+  position: absolute;
+  height: 29px;
+  left: 0%;
+  right: 39.09%;
+  top: calc(50% - 29px / 2 - 9.5px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #234cad;
+}
+.item2 {
+  position: absolute;
+  height: 29px;
+  left: 0%;
+  right: 30%;
+  top: calc(50% - 29px / 2 + 29.5px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #234cad;
+}
+.item3 {
+  position: absolute;
+  height: 29px;
+  left: 0%;
+  right: 36.36%;
+  top: calc(50% - 29px / 2 + 68.5px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #234cad;
+}
+.about-footer {
+  position: absolute;
+  left: 60.89%;
+  right: 29.97%;
+  top: 28%;
+  bottom: 23.49%;
+}
+.support-footer {
+  position: absolute;
+  left: 85.97%;
+  right: 0%;
+  top: 28%;
+  width: 200px;
+  bottom: 23.49%;
 }
